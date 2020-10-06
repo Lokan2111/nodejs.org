@@ -1,5 +1,5 @@
 FROM node:9
 COPY . .
 RUN npm install
-CMD ["server.js","package.json"]
+CMD ["node","server.js"]
 EXPOSE 8000
